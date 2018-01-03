@@ -7,7 +7,6 @@ from adminlte.models import *
 
 register = template.Library()
 
-
 @register.simple_tag(takes_context=True)
 def get_menu(context, request):
 
