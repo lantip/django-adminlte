@@ -1,5 +1,5 @@
 from django import template
-from django.core.urlresolvers import reverse, resolve
+from django.urls import reverse, resolve
 from django.contrib.contenttypes.models import ContentType
 
 from adminlte.models import *
