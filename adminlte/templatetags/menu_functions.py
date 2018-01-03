@@ -8,7 +8,7 @@ from adminlte.models import *
 register = template.Library()
 
 
-@register.assignment_tag(takes_context=True)
+@register.simple_tag(takes_context=True)
 def get_menu(context, request):
 
     admin_site = get_admin_site(
